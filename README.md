@@ -1,22 +1,18 @@
 # TodoApp
-Todo App build using Django framework
+A simple Django-based Todo application with user authentication and admin management.
 
 ## Features
 
 - User Signup, Login, and Logout
 - Create, view, and delete todo items
 - Admin panel to manage users and todos (restricted to staff users)
-- Simple and clean UI
-
----
-## Setup Instructions
-
+  
 ### Prerequisites
 
 - Python 3.8+
 - Django 4.x
 - Virtual environment recommended
-### To start
+#### To start
 
 1. Clone the repository:
 
@@ -38,9 +34,11 @@ Todo App build using Django framework
 5. Run server
    ```bash
    python manage.py runserver
-http://localhost:8000/ -------> Todo app
-
-http://localhost:8000/admin/ ------>  Django admin panel
+6. Links:
+   
+      http://localhost:8000/ -------> Todo app
+      
+      http://localhost:8000/admin/ ------>  Django admin panel
 
 
     
