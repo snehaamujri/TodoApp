@@ -1,0 +1,12 @@
+<h2>User Signup</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Signup</button>
+</form>
+
+{% for message in messages %}
+    <p>{{ message }}</p>
+{% endfor %}
+
+<p>Already have an account? <a href="{% url 'login' %}">Login here</a></p>
