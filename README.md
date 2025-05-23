@@ -35,10 +35,16 @@ A simple Django-based Todo application with user authentication and admin manage
    ```bash
    python manage.py runserver
 6. Links:
+   Todo App
    
-      http://localhost:8000/ -------> Todo app
-      
-      http://localhost:8000/admin/ ------>  Django admin panel
+      ```bash
+      http://localhost:8000/
+   
+
+  Django admin panel
+
+      ```bash
+      http://localhost:8000/admin/ 
 
 
     
