@@ -18,7 +18,7 @@ A simple Django-based Todo application with user authentication and admin manage
 
    ```bash
    git clone https://github.com/snehaamujri/TodoApp.git
-   cd your-repo
+   cd TodoApp
 2. Create and activate a virtual environment:
 
     ```bash
