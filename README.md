@@ -43,7 +43,6 @@ A simple Django-based Todo application with user authentication and admin manage
 
   Django admin panel
 
-      ```bash
       http://localhost:8000/admin/ 
 
 
